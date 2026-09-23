@@ -211,7 +211,7 @@ function populateTrainers(t) {
     <div class="card" style="display:flex;flex-direction:column;overflow:hidden;background-color:#FFFFFF;border:1px solid var(--border);box-shadow:var(--shadow-1);">
       <div class="trainer-img-wrapper" style="height:250px;background-color:#e2e8f0;">
         <img src="${p.photo}" alt="${p.name}" loading="lazy" class="primary-img" style="object-position:${p.image_position || 'top center'};" onerror="this.style.display='none'">
-        ${p.photo_hover ? `<img src="${p.photo_hover}" alt="${p.name}" loading="lazy" class="hover-img" style="object-position:${p.image_position || 'top center'};" onerror="this.style.display='none'">` : ''}
+        ${p.photo_hover ? `<img src="${p.photo_hover}" alt="${p.name}" loading="lazy" class="hover-img" style="object-position:${p.hover_image_position || p.image_position || 'top center'};" onerror="this.style.display='none'">` : ''}
         <div style="position:absolute;bottom:0;left:0;right:0;height:50%;background:linear-gradient(to top,#FFFFFF,transparent);z-index:1;"></div>
       </div>
       <div class="card-body" style="padding:1.5rem;display:flex;flex-direction:column;flex:1;margin-top:-30px;position:relative;z-index:2;">

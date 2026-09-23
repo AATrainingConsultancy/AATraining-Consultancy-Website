@@ -195,6 +195,7 @@
         "photo": "images/trainer2.jpg",
         "photo_hover": "images/trainer2-alt.jpg",
         "image_position": "top center",
+        "hover_image_position": "center",
         "_photo_comment": "EDIT: Gantikan dengan gambar jurulatih — letakkan dalam images/ dengan nama trainer2.jpg",
         "credentials": ["AI Development", "TVET Educator", "Team Building"],
         "bio": "Berpengalaman dalam pembangunan sistem (AI), pendidik TVET dalam bidang teknologi, dan jurulatih Team Building yang dinamik."
