@@ -303,38 +303,6 @@ function populateContact(c, site) {
   if (waFloating && site.contact.whatsapp_number) {
     waFloating.href = "https://wa.me/" + site.contact.whatsapp_number;
   }
-
-  const form = document.getElementById("contact-form");
-  const msg = document.getElementById("contact-success-msg");
-  
-  // Remove existing listener to avoid duplicates if re-rendered
-  const newForm = form.cloneNode(true);
-  form.parentNode.replaceChild(newForm, form);
-  
-  if (newForm) newForm.addEventListener("submit", e => {
-    e.preventDefault();
-    const formData = new FormData(newForm);
-    fetch(newForm.action, {
-      method: 'POST',
-      body: formData,
-      headers: {
-        'Accept': 'application/json'
-      }
-    }).then(response => {
-      if (response.ok) {
-        if(msg) {
-          msg.textContent = c.form_success_message;
-          msg.style.display = "block";
-          setTimeout(() => msg.style.display = "none", 5000);
-        }
-        newForm.reset();
-      } else {
-        alert("Oops! There was a problem submitting your form");
-      }
-    }).catch(error => {
-      alert("Oops! There was a problem submitting your form");
-    });
-  });
 }
 
 /* FOOTER */
