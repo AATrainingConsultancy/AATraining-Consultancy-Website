@@ -5,7 +5,7 @@
     "_comment": "MAKLUMAT SYARIKAT UTAMA / MAIN COMPANY INFO",
     "name": "AA Training & Consultancy",
     "name_short": "AATC",
-    "tagline": "TRAINING & CONSULTANCY",
+    "tagline": "LATIHAN & KONSULTANSI",
     "registration": "REG: 202603151092 (003858558-D)",
     "logo_path": "images/logo.png",
     "_logo_comment": "EDIT: Tukar logo — letakkan fail logo anda dalam folder images/ dengan nama logo.png",
@@ -16,7 +16,7 @@
       "_comment": "MAKLUMAT HUBUNGAN / CONTACT DETAILS — Ubah nombor telefon, emel dan alamat di sini",
       "phone_1": "019-555 2008",
       "phone_2": "011-1447 5646",
-      "whatsapp_number": "60123456789",
+      "whatsapp_number": "60195552008",
       "email": "aatc.ajit@gmail.com",
       "address_line1": "1A Persiaran Seri Raia,",
       "address_line2": "Taman Seri Raia, Kampung Kepayang,",
@@ -37,12 +37,12 @@
   "nav": {
     "_comment": "MENU NAVIGASI / NAVIGATION MENU",
     "links": [
-      { "label": "Home",       "href": "#" },
-      { "label": "Services",   "href": "#kursus-konsultansi" },
-      { "label": "Facilities", "href": "#fasiliti" },
-      { "label": "Trainers",   "href": "#trainers" },
-      { "label": "Clients",    "href": "#klien" },
-      { "label": "Contact",    "href": "#hubungi" }
+      { "label": "Laman Utama",    "href": "#" },
+      { "label": "Perkhidmatan",   "href": "#kursus-konsultansi" },
+      { "label": "Fasiliti",       "href": "#fasiliti" },
+      { "label": "Jurulatih",      "href": "#trainers" },
+      { "label": "Klien",          "href": "#klien" },
+      { "label": "Hubungi Kami",   "href": "#hubungi" }
     ],
     "book_btn_text": "Tempah Sekarang"
   },
@@ -50,8 +50,8 @@
   "hero": {
     "_comment": "SEKSYEN HERO / HERO SECTION — Bahagian utama di atas halaman",
     "badge_text": "Pusat Latihan Korporat & Konsultasi",
-    "headline_line1": "Empowering People,",
-    "headline_line2": "Enhancing Performance.",
+    "headline_line1": "Memperkasa Insan,",
+    "headline_line2": "Meningkatkan Prestasi.",
     "description": "Peneraju latihan korporat berimpak tinggi, pembangunan sistem kecerdasan buatan (AI), khidmat kepakaran pusaka & wasiat, serta pusat sewaan ruang acara lengkap di Ipoh, Perak.",
     "btn_primary_text": "Terokai Kursus & Konsultasi",
     "btn_primary_href": "#kursus-konsultansi",
@@ -70,8 +70,8 @@
       "photo": "images/chill-random.jpg",
       "_photo_comment": "EDIT: Gantikan gambar — letakkan fail dalam images/ dengan nama trainer-hero.jpg",
       "name": "Dr. Abdul Aziz bin Sulaiman",
-      "title": "Lead Trainer & Senior Consultant",
-      "google_rating": "Rated 5.0 on Google"
+      "title": "Jurulatih Utama & Perunding Kanan",
+      "google_rating": "Diberi Penarafan 5.0 di Google"
     }
   },
 
@@ -85,7 +85,7 @@
     "cards": [
       {
         "icon": "bolt",
-        "title": "AI & Power of Productivity",
+        "title": "AI & Kuasa Produktiviti",
         "description": "Latihan intensif pemanfaatan teknologi AI untuk meningkatkan produktiviti tugas harian pejabat.",
         "bullets": ["Automasi tugasan berulang", "Kejuruteraan prompt efektif", "Integrasi AI dalam operasi", "Analisa data pantas"]
       },
@@ -109,7 +109,7 @@
       },
       {
         "icon": "trending_up",
-        "title": "Strategic Growth Consulting",
+        "title": "Rundingan Pertumbuhan Strategik",
         "description": "Rundingan berpandukan data untuk memaksimumkan pulangan pelaburan (ROI).",
         "bullets": ["Analisis keperluan latihan (TNA)", "Penetapan halatuju korporat", "Pemerkasaan penjenamaan", "Perkongsian pasaran baru"]
       }
@@ -182,35 +182,35 @@
     "profiles": [
       {
         "name": "Dr. Abdul Aziz Bin Sulaiman",
-        "title": "Lead Trainer & Senior Consultant",
+        "title": "Jurulatih Utama & Perunding Kanan",
         "photo": "images/trainer1.jpg",
         "photo_hover": "images/trainer1-alt.jpg",
         "image_position": "top center",
         "hover_image_position": "center 40%",
         "_photo_comment": "EDIT: Gantikan dengan gambar jurulatih — letakkan dalam images/ dengan nama trainer1.jpg",
-        "credentials": ["Pengurus Harta Pusaka", "Hibah & Wasiat", "Leadership"],
-        "bio": "Berpengalaman luas dalam pembangunan kepimpinan (Leadership Development), Team Building, dan Pembangunan Modal Insan serta pengurusan Harta Pusaka, Hibah, dan Wasiat."
+        "credentials": ["Pengurus Harta Pusaka", "Hibah & Wasiat", "Kepimpinan"],
+        "bio": "Berpengalaman luas dalam pembangunan kepimpinan, Pembinaan Pasukan, dan Pembangunan Modal Insan serta pengurusan Harta Pusaka, Hibah, dan Wasiat."
       },
       {
         "name": "Sir Muhammad Hamizan",
-        "title": "AI & TVET Specialist",
+        "title": "Pakar AI & TVET",
         "photo": "images/trainer2.jpg",
         "photo_hover": "images/trainer2-alt.jpg",
         "image_position": "top center",
         "hover_image_position": "center 25%",
         "_photo_comment": "EDIT: Gantikan dengan gambar jurulatih — letakkan dalam images/ dengan nama trainer2.jpg",
-        "credentials": ["AI Development", "TVET Educator", "Team Building"],
-        "bio": "Berpengalaman dalam pembangunan sistem (AI), pendidik TVET dalam bidang teknologi, dan jurulatih Team Building yang dinamik."
+        "credentials": ["Pembangunan AI", "Pendidik TVET", "Pembinaan Pasukan"],
+        "bio": "Berpengalaman dalam pembangunan sistem (AI), pendidik TVET dalam bidang teknologi, dan jurulatih Pembinaan Pasukan yang dinamik."
       },
       {
         "name": "Sir Muhammad Nur Aiman Muqhlis",
-        "title": "Automotive TVET & Leadership Trainer",
+        "title": "Jurulatih TVET Automotif & Kepimpinan",
         "photo": "images/trainer3.jpg",
         "photo_hover": "images/trainer3-alt.jpg",
         "image_position": "center 15%",
         "_photo_comment": "EDIT: Gantikan dengan gambar jurulatih — letakkan dalam images/ dengan nama trainer3.jpg",
-        "credentials": ["Automotive TVET", "Public Speaking", "Leadership"],
-        "bio": "Pengkhususan dalam kepimpinan (Leadership Development), Team Building, pengucapan awam (Public Speaking), serta pendidikan teknologi automotif TVET."
+        "credentials": ["TVET Automotif", "Pengucapan Awam", "Kepimpinan"],
+        "bio": "Pengkhususan dalam kepimpinan, Pembinaan Pasukan, Pengucapan Awam, serta pendidikan teknologi automotif TVET."
       }
     ]
   },
@@ -247,7 +247,7 @@
     "cards": [
       { "icon": "chair",         "title": "Bilik Rehat Eksklusif",    "description": "Ruang rehat peribadi dilengkapi dengan kemudahan minuman dan sofa selesa untuk jurulatih bersedia sebelum sesi.", "btn_text": "Lihat Fasiliti" },
       { "icon": "mic",           "title": "Peralatan AV Premium",     "description": "Sistem audio-visual terkini, mikrofon tanpa wayar dan skrin LED pintar untuk pembentangan interaktif.", "btn_text": "Spesifikasi Teknikal" },
-      { "icon": "support_agent", "title": "Bantuan Teknikal On-Site", "description": "Pasukan sokongan teknikal sedia ada sepanjang masa bagi memastikan kelancaran setiap program anda.", "btn_text": "Bantuan Lanjut" }
+      { "icon": "support_agent", "title": "Bantuan Teknikal Di Tapak", "description": "Pasukan sokongan teknikal sedia ada sepanjang masa bagi memastikan kelancaran setiap program anda.", "btn_text": "Bantuan Lanjut" }
     ],
 
     "banner": {
@@ -262,8 +262,11 @@
     "section_badge": "Hubungi Kami",
     "section_title": "Lokasi & Tempahan",
     "form_title": "Borang Pertanyaan & Tempahan",
+    "form_submit_btn": "Hantar Pertanyaan",
     "form_success_message": "Terima kasih. Mesej anda telah dihantar. Kami akan menghubungi anda segera.",
-    "map_embed_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15904.764426555182!2d101.1099!3d4.5513!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31ca118b6fc8e265%3A0xc3f173bfec953e50!2s31300%20Kampung%20Kepayang%2C%20Perak!5e0!3m2!1sen!2smy!4v1690000000000!5m2!1sen!2smy",
+    "map_embed_url": "https://maps.google.com/maps?q=1A%20Persiaran%20Seri%20Raia%2C%20Taman%20Seri%20Raia%2C%2031300%20Ipoh%2C%20Perak&output=embed",
+    "map_directions_url": "https://www.google.com/maps/search/?api=1&query=1A+Persiaran+Seri+Raia,+Taman+Seri+Raia,+31300+Ipoh,+Perak",
+    "map_directions_text": "Dapatkan Arah",
     "booking_types": [
       { "value": "bilik_seminar", "label": "Bilik Seminar" },
       { "value": "latihan",       "label": "Program Latihan" },

@@ -291,17 +291,74 @@ function populateContact(c, site) {
   setText("contact-email",       site.contact.email);
   setText("contact-hours-wd",    site.contact.operating_hours_weekday);
   setText("contact-hours-we",    site.contact.operating_hours_weekend);
-  setAttr("contact-map",         "src", c.map_embed_url);
-
   const select = document.getElementById("jenis_tempahan");
   if (select && c.booking_types) {
     select.innerHTML = `<option value="" disabled selected>Sila Pilih...</option>` +
       c.booking_types.map(t => `<option value="${t.value}">${t.label}</option>`).join("");
   }
 
+  const mapIframe = document.getElementById("contact-map");
+  if (mapIframe) {
+    mapIframe.src = c.map_embed_url;
+  }
+
+  const mapDirections = document.getElementById("contact-map-directions");
+  if (mapDirections && c.map_directions_url) {
+    mapDirections.href = c.map_directions_url;
+    mapDirections.textContent = c.map_directions_text;
+  }
+
+  const formSubmitBtnText = document.getElementById("form-submit-btn-text");
+  if (formSubmitBtnText && c.form_submit_btn) {
+    formSubmitBtnText.textContent = c.form_submit_btn;
+  }
+
+  const waLink = document.getElementById("contact-whatsapp-link");
+  if (waLink && site.contact.whatsapp_number) {
+    waLink.textContent = site.contact.whatsapp_number;
+    waLink.href = "https://wa.me/" + site.contact.whatsapp_number + "?text=" + encodeURIComponent("Hello AATC, I would like to make an inquiry.");
+  }
+
   const waFloating = document.getElementById("whatsapp-floating");
   if (waFloating && site.contact.whatsapp_number) {
-    waFloating.href = "https://wa.me/" + site.contact.whatsapp_number;
+    waFloating.href = "https://wa.me/" + site.contact.whatsapp_number + "?text=" + encodeURIComponent("Hello AATC, I would like to make an inquiry.");
+  }
+
+  const contactForm = document.getElementById("contact-form");
+  if (contactForm) {
+    contactForm.onsubmit = function(e) {
+      e.preventDefault();
+      const form = e.target;
+      const data = new FormData(form);
+      const submitBtn = form.querySelector('button[type="submit"]');
+      const originalBtnText = submitBtn.innerHTML;
+      
+      submitBtn.innerHTML = 'Menghantar... <span class="material-symbols-outlined" style="font-size:18px;margin-left:4px;">hourglass_empty</span>';
+      submitBtn.disabled = true;
+
+      fetch(form.action, {
+        method: form.method,
+        body: data,
+        headers: { 'Accept': 'application/json' }
+      }).then(response => {
+        if (response.ok) {
+          form.reset();
+          const successMsg = document.getElementById("contact-success-msg");
+          if (successMsg) {
+            successMsg.textContent = c.form_success_message || "Terima kasih. Mesej anda telah dihantar.";
+            successMsg.style.display = "block";
+            setTimeout(() => { successMsg.style.display = "none"; }, 8000);
+          }
+        } else {
+          alert("Ralat semasa menghantar borang. Sila cuba lagi.");
+        }
+      }).catch(error => {
+        alert("Ralat sambungan. Sila cuba lagi.");
+      }).finally(() => {
+        submitBtn.innerHTML = originalBtnText;
+        submitBtn.disabled = false;
+      });
+    };
   }
 }
 
@@ -317,6 +374,12 @@ function populateFooter(f, site) {
   setText("footer-contact-address", `${site.contact.address_line1} ${site.contact.address_line2} ${site.contact.address_line3}`);
   setText("footer-contact-phone",   `${site.contact.phone_1} / ${site.contact.phone_2}`);
   setText("footer-contact-email",   site.contact.email);
+
+  const footerWaLink = document.getElementById("footer-contact-whatsapp");
+  if (footerWaLink && site.contact.whatsapp_number) {
+    footerWaLink.textContent = site.contact.whatsapp_number;
+    footerWaLink.href = "https://wa.me/" + site.contact.whatsapp_number + "?text=" + encodeURIComponent("Hello AATC, I would like to make an inquiry.");
+  }
 
   const col2 = document.getElementById("footer-col2-links");
   if (col2) col2.innerHTML = f.col2_links.map(l =>
