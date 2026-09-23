@@ -1,0 +1,285 @@
+{
+  "_readme": "PANDUAN PENYUNTINGAN / EDITING GUIDE — Untuk tukar teks, ubah nilai di bawah. Untuk tukar gambar, ganti fail dalam folder images/ dengan nama yang SAMA.",
+
+  "site": {
+    "_comment": "MAKLUMAT SYARIKAT UTAMA / MAIN COMPANY INFO",
+    "name": "AA Training & Consultancy",
+    "name_short": "AATC",
+    "tagline": "TRAINING & CONSULTANCY",
+    "registration": "REG: 202603151092 (003858558-D)",
+    "logo_path": "images/logo.png",
+    "_logo_comment": "EDIT: Tukar logo — letakkan fail logo anda dalam folder images/ dengan nama logo.png",
+    "page_title": "AATC — Latihan & di Ipoh",
+    "meta_description": "Peneraju latihan korporat berimpak tinggi, pembangunan AI, khidmat pusaka & wasiat, dan sewaan fasiliti di Ipoh, Perak.",
+
+    "contact": {
+      "_comment": "MAKLUMAT HUBUNGAN / CONTACT DETAILS — Ubah nombor telefon, emel dan alamat di sini",
+      "phone_1": "019-555 2008",
+      "phone_2": "011-1447 5646",
+      "email": "aatc.ajit@gmail.com",
+      "address_line1": "1A Persiaran Seri Raia,",
+      "address_line2": "Taman Seri Raia, Kampung Kepayang,",
+      "address_line3": "31300 Ipoh, Perak",
+      "operating_hours_weekday": "Isnin - Jumaat: 9:00 AM - 5:00 PM",
+      "operating_hours_weekend": "Sabtu & Ahad: Atas Tempahan"
+    },
+
+    "social_media": {
+      "_comment": "PAUTAN MEDIA SOSIAL / SOCIAL MEDIA LINKS — Letak URL penuh di sini, contoh: https://facebook.com/aatc",
+      "facebook": "#",
+      "linkedin": "#",
+      "whatsapp": "#",
+      "youtube": "#"
+    }
+  },
+
+  "nav": {
+    "_comment": "MENU NAVIGASI / NAVIGATION MENU",
+    "links": [
+      { "label": "Home",       "href": "#" },
+      { "label": "Services",   "href": "#kursus-konsultansi" },
+      { "label": "Facilities", "href": "#fasiliti" },
+      { "label": "Trainers",   "href": "#trainers" },
+      { "label": "Clients",    "href": "#klien" },
+      { "label": "Contact",    "href": "#hubungi" }
+    ],
+    "book_btn_text": "Tempah Sekarang"
+  },
+
+  "hero": {
+    "_comment": "SEKSYEN HERO / HERO SECTION — Bahagian utama di atas halaman",
+    "badge_text": "Pusat Latihan Korporat & Konsultasi",
+    "headline_line1": "Empowering People,",
+    "headline_line2": "Enhancing Performance.",
+    "description": "Peneraju latihan korporat berimpak tinggi, pembangunan sistem kecerdasan buatan (AI), khidmat kepakaran pusaka & wasiat, serta pusat sewaan ruang acara lengkap di Ipoh, Perak.",
+    "btn_primary_text": "Terokai Kursus & Konsultasi",
+    "btn_primary_href": "#kursus-konsultansi",
+    "btn_secondary_text": "Tempah Bilik Seminar",
+    "btn_secondary_href": "#fasiliti",
+
+    "stats": [
+      { "value": "10+", "label": "Tahun Pengalaman" },
+      { "value": "8",   "label": "Pakar Jurulatih" },
+      { "value": "3",   "label": "Ruang Seminar" },
+      { "value": "45+", "label": "Klien" }
+    ],
+
+    "featured_trainer": {
+      "_comment": "KAD JURULATIH UTAMA DI HERO / HERO TRAINER CARD",
+      "photo": "images/trainer-hero.jpg",
+      "_photo_comment": "EDIT: Gantikan gambar — letakkan fail dalam images/ dengan nama trainer-hero.jpg",
+      "name": "Dr. Abdul Aziz bin Sulaiman",
+      "title": "Lead Trainer & Senior Consultant",
+      "google_rating": "Rated 5.0 on Google"
+    }
+  },
+
+  "services": {
+    "_comment": "SEKSYEN PERKHIDMATAN / SERVICES SECTION",
+    "section_badge": "Bidang Kepakaran Utama",
+    "section_title": "Sulat Latihan AI, dan Peran Strategik",
+    "section_description": "AATC menyediakan ekosistem pembangunan korporat menyeluruh yang dirangka khas untuk memperkasa kapasiti sumber manusia dan kecekapan digital organisasi.",
+    "link_text": "Ketahui Lebih Lanjut",
+
+    "cards": [
+      {
+        "icon": "bolt",
+        "title": "AI & Power of Productivity",
+        "description": "Latihan intensif pemanfaatan teknologi AI untuk meningkatkan produktiviti tugas harian pejabat.",
+        "bullets": ["Automasi tugasan berulang", "Kejuruteraan prompt efektif", "Integrasi AI dalam operasi", "Analisa data pantas"]
+      },
+      {
+        "icon": "memory",
+        "title": "Transformasi Teknologi",
+        "description": "Bimbingan strategi ke arah pendigitalan sepenuhnya selaras revolusi industri 4.0.",
+        "bullets": ["Pelan hala tuju digital", "TVET dan kemahiran teknikal", "Pemodenan infrastruktur IT", "Pengurusan sekuriti siber"]
+      },
+      {
+        "icon": "psychology",
+        "title": "Kepimpinan Inovatif & Strategi",
+        "description": "Program pembangunan eksekutif bagi melahirkan pemikir tangkas.",
+        "bullets": ["Pembinaan skuad berprestasi", "Kepimpinan krisis & adaptasi", "Komunikasi awam korporat", "Modul etika dan integriti"]
+      },
+      {
+        "icon": "gpp_maybe",
+        "title": "Pengurusan Risiko",
+        "description": "Kenal pasti, nilai, dan atasi risiko organisasi sebelum ia menjadi krisis.",
+        "bullets": ["Penilaian matrik risiko syarikat", "Pemulihan operasi bencana", "Pematuhan piawaian ISO", "Perlindungan aset syarikat"]
+      },
+      {
+        "icon": "trending_up",
+        "title": "Strategic Growth Consulting",
+        "description": "Rundingan berpandukan data untuk memaksimumkan pulangan pelaburan (ROI).",
+        "bullets": ["Analisis keperluan latihan (TNA)", "Penetapan halatuju korporat", "Pemerkasaan penjenamaan", "Perkongsian pasaran baru"]
+      }
+    ],
+
+    "featured_card": {
+      "_comment": "KAD KHAS BERWARNA NAVY / SPECIAL NAVY FEATURED CARD",
+      "badge": "Khidmat Kepakaran Khas",
+      "title": "Perancangan Pusaka & Hibah",
+      "description": "Sesi eksklusif pengurusan pewarisan syariah, penulisan wasiat dan perlindungan legasi korporat.",
+      "link_text": "Dapatkan Nasihat Pakar",
+      "bullets": ["Penulisan Hibah Bersyarat", "Penyediaan Wasiat 1/3", "Kalkulator Faraid", "Konsultasi Syarie"]
+    }
+  },
+
+  "facilities": {
+    "_comment": "SEKSYEN BILIK SEMINAR / SEMINAR ROOMS SECTION",
+    "section_badge": "Ruang & Fasiliti Bertaraf Korporat",
+    "section_title": "Bilik Seminar & Ruang Acara di Ipoh",
+
+    "rooms": [
+      {
+        "name": "Bilik Tuisyen / Kelas",
+        "capacity": "10 - 30 Pax",
+        "photo": "images/room1.jpg",
+        "_photo_comment": "EDIT: Gantikan dengan gambar bilik sebenar — letakkan dalam images/ dengan nama room1.jpg",
+        "daily_rate": "RM 400",
+        "amenities": [
+          { "icon": "ac_unit",    "label": "Penghawa Dingin Penuh" },
+          { "icon": "wifi",       "label": "Internet Berkelajuan Tinggi" },
+          { "icon": "co_present", "label": "Papan Putih & Marker" }
+        ],
+        "popular": false
+      },
+      {
+        "name": "Dewan Seminar Utama",
+        "capacity": "40 - 60 Pax",
+        "photo": "images/room2.jpg",
+        "_photo_comment": "EDIT: Gantikan dengan gambar bilik sebenar — letakkan dalam images/ dengan nama room2.jpg",
+        "daily_rate": "RM 850",
+        "amenities": [
+          { "icon": "cast",    "label": "Projektor & Layar Besar" },
+          { "icon": "mic",     "label": "Sistem PA & Mikrofon" },
+          { "icon": "ac_unit", "label": "Penghawa Dingin Penuh" }
+        ],
+        "popular": true
+      },
+      {
+        "name": "Bilik Mesyuarat VIP",
+        "capacity": "10 - 12 Pax",
+        "photo": "images/room3.jpg",
+        "_photo_comment": "EDIT: Gantikan dengan gambar bilik sebenar — letakkan dalam images/ dengan nama room3.jpg",
+        "daily_rate": "RM 400",
+        "amenities": [
+          { "icon": "event_seat", "label": "Kerusi Eksekutif" },
+          { "icon": "tv",         "label": "TV Pintar untuk Paparan" },
+          { "icon": "local_cafe", "label": "Sudut Minuman Ringkas" }
+        ],
+        "popular": false
+      }
+    ],
+    "book_btn_text": "Tempah Sekarang"
+  },
+
+  "trainers": {
+    "_comment": "SEKSYEN JURULATIH / TRAINERS SECTION",
+    "section_badge": "Tenaga Pakar Kami",
+    "section_title": "Barisan Jurulatih & Perunding Utama AATC",
+
+    "profiles": [
+      {
+        "name": "Dr. Abdul Aziz bin Sulaiman",
+        "title": "Lead Trainer & Senior Consultant",
+        "photo": "images/trainer1.jpg",
+        "_photo_comment": "EDIT: Gantikan dengan gambar jurulatih — letakkan dalam images/ dengan nama trainer1.jpg",
+        "credentials": ["Pakar Faraid", "Pengurusan Pusaka", "HRD Corp TTT"],
+        "bio": "Pakar rujuk dalam perancangan harta pusaka Islam dan kepimpinan korporat dengan lebih 15 tahun pengalaman mengendalikan kes-kes faraid dan perancangan legasi syarikat."
+      },
+      {
+        "name": "Muhammad Hamizan",
+        "title": "AI & TVET Specialist",
+        "photo": "images/trainer2.jpg",
+        "_photo_comment": "EDIT: Gantikan dengan gambar jurulatih — letakkan dalam images/ dengan nama trainer2.jpg",
+        "credentials": ["AI Automation", "Pakar TVET", "Prompt Engineering"],
+        "bio": "Menerajui transformasi digital korporat dengan kepakaran teknikal dalam automasi kecerdasan buatan, pendigitalan operasi perniagaan dan latihan vokasional moden."
+      },
+      {
+        "name": "Puan Zuraidah binti Ali",
+        "title": "Perunding Pengurusan Strategik",
+        "photo": "images/trainer3.jpg",
+        "_photo_comment": "EDIT: Gantikan dengan gambar jurulatih — letakkan dalam images/ dengan nama trainer3.jpg",
+        "credentials": ["Strategic Growth", "Risk Management", "ISO Auditor"],
+        "bio": "Membantu organisasi membangunkan pelan pengurusan risiko komprehensif, pematuhan piawaian antarabangsa dan strategi pertumbuhan korporat jangka panjang."
+      }
+    ]
+  },
+
+  "clients": {
+    "_comment": "SEKSYEN KLIEN / CLIENTS SECTION",
+    "section_badge": "Rangkaian Klien AATC",
+    "section_title": "Dipercayai Pelbagai Sektor Di Seluruh Negara",
+    "section_description": "Kami berbangga menjadi rakan strategik kepada organisasi terkemuka dalam memacu kecemerlangan modal insan.",
+    "clients_count_number": "45+ Klien",
+    "clients_count_suffix": "Telah Mendapat Manfaat",
+
+    "sectors": [
+      { "icon": "account_balance", "title": "Kementerian & Badan Berkanun", "description": "Memperkasa integriti dan kecekapan operasi penjawat awam serta agensi kerajaan." },
+      { "icon": "domain",          "title": "Syarikat Perbadanan & NGO",    "description": "Menyediakan latihan kepimpinan dan pendigitalan untuk pertumbuhan korporat yang mampan." },
+      { "icon": "school",          "title": "Institusi Pendidikan & IPTS",  "description": "Bekerjasama dengan universiti dan pusat TVET dalam melahirkan graduan holistik." }
+    ],
+
+    "logos": [
+      { "_comment": "LOGO KLIEN — Gantikan laluan dengan logo sebenar. Contoh: images/client1.png" },
+      { "name": "Klien 1", "logo": "images/client1.png" },
+      { "name": "Klien 2", "logo": "images/client2.png" },
+      { "name": "Klien 3", "logo": "images/client3.png" },
+      { "name": "Klien 4", "logo": "images/client4.png" },
+      { "name": "Klien 5", "logo": "images/client5.png" }
+    ]
+  },
+
+  "educator_facilities": {
+    "_comment": "SEKSYEN KEMUDAHAN PENDIDIK / EDUCATOR FACILITIES SECTION",
+    "section_badge": "Eksklusif",
+    "section_title": "Senarai Kemudahan Pendidik & Jurulatih AATC",
+
+    "cards": [
+      { "icon": "chair",         "title": "Bilik Rehat Eksklusif",    "description": "Ruang rehat peribadi dilengkapi dengan kemudahan minuman dan sofa selesa untuk jurulatih bersedia sebelum sesi.", "btn_text": "Lihat Fasiliti" },
+      { "icon": "mic",           "title": "Peralatan AV Premium",     "description": "Sistem audio-visual terkini, mikrofon tanpa wayar dan skrin LED pintar untuk pembentangan interaktif.", "btn_text": "Spesifikasi Teknikal" },
+      { "icon": "support_agent", "title": "Bantuan Teknikal On-Site", "description": "Pasukan sokongan teknikal sedia ada sepanjang masa bagi memastikan kelancaran setiap program anda.", "btn_text": "Bantuan Lanjut" }
+    ],
+
+    "banner": {
+      "title": "Berminat Menyewa Ruang Latihan Kami?",
+      "description": "Dapatkan pakej istimewa bagi sewaan jangka masa panjang dan rakan kongsi strategik.",
+      "btn_text": "Hubungi Penyelaras"
+    }
+  },
+
+  "contact": {
+    "_comment": "SEKSYEN HUBUNGI / CONTACT SECTION",
+    "section_badge": "Hubungi Kami",
+    "section_title": "Lokasi & Tempahan",
+    "form_title": "Borang Pertanyaan & Tempahan",
+    "form_success_message": "Terima kasih. Mesej anda telah dihantar. Kami akan menghubungi anda segera.",
+    "map_embed_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15904.764426555182!2d101.1099!3d4.5513!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31ca118b6fc8e265%3A0xc3f173bfec953e50!2s31300%20Kampung%20Kepayang%2C%20Perak!5e0!3m2!1sen!2smy!4v1690000000000!5m2!1sen!2smy",
+    "booking_types": [
+      { "value": "bilik_seminar", "label": "Bilik Seminar" },
+      { "value": "latihan",       "label": "Program Latihan" },
+      { "value": "konsultansi",   "label": "Khidmat Konsultansi" }
+    ]
+  },
+
+  "footer": {
+    "_comment": "FOOTER — Maklumat hak cipta / Copyright info",
+    "copyright": "2026 AA Training & Consultancy. Hak Cipta Terpelihara.",
+    "col1_description": "Peneraju latihan korporat berimpak tinggi, pembangunan sistem kecerdasan buatan (AI), dan khidmat kepakaran pusaka & wasiat.",
+    "col2_title": "Pautan Pantas",
+    "col2_links": [
+      { "label": "Laman Utama",      "href": "#" },
+      { "label": "Tentang Kami",     "href": "#" },
+      { "label": "Barisan Jurulatih","href": "#trainers" },
+      { "label": "Rangkaian Klien",  "href": "#klien" }
+    ],
+    "col3_title": "Perkhidmatan Kami",
+    "col3_links": [
+      { "label": "Latihan & Konsultasi AI",   "href": "#kursus-konsultansi" },
+      { "label": "Perancangan Pusaka & Hibah", "href": "#kursus-konsultansi" },
+      { "label": "Sewaan Fasiliti Acara",     "href": "#fasiliti" },
+      { "label": "Kemudahan Pendidik",        "href": "#kemudahan-pendidik" }
+    ],
+    "col4_title": "Hubungi Kami"
+  }
+}
