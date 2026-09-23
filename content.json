@@ -185,6 +185,7 @@
         "photo": "images/trainer1.jpg",
         "photo_hover": "images/trainer1-alt.jpg",
         "image_position": "top center",
+        "hover_image_position": "center 60%",
         "_photo_comment": "EDIT: Gantikan dengan gambar jurulatih — letakkan dalam images/ dengan nama trainer1.jpg",
         "credentials": ["Pengurus Harta Pusaka", "Hibah & Wasiat", "Leadership"],
         "bio": "Berpengalaman luas dalam pembangunan kepimpinan (Leadership Development), Team Building, dan Pembangunan Modal Insan serta pengurusan Harta Pusaka, Hibah, dan Wasiat."
