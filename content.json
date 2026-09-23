@@ -66,7 +66,7 @@
 
     "featured_trainer": {
       "_comment": "KAD JURULATIH UTAMA DI HERO / HERO TRAINER CARD",
-      "photo": "images/trainer-hero.jpg",
+      "photo": "images/chill-random.jpg",
       "_photo_comment": "EDIT: Gantikan gambar — letakkan fail dalam images/ dengan nama trainer-hero.jpg",
       "name": "Dr. Abdul Aziz bin Sulaiman",
       "title": "Lead Trainer & Senior Consultant",
@@ -133,7 +133,7 @@
       {
         "name": "Bilik Tuisyen / Kelas",
         "capacity": "10 - 30 Pax",
-        "photo": "images/room1.jpg",
+        "photo": "images/room1-tuition.png",
         "_photo_comment": "EDIT: Gantikan dengan gambar bilik sebenar — letakkan dalam images/ dengan nama room1.jpg",
         "daily_rate": "RM 400",
         "amenities": [
@@ -146,7 +146,7 @@
       {
         "name": "Dewan Seminar Utama",
         "capacity": "40 - 60 Pax",
-        "photo": "images/room2.jpg",
+        "photo": "images/room3-seminar.png",
         "_photo_comment": "EDIT: Gantikan dengan gambar bilik sebenar — letakkan dalam images/ dengan nama room2.jpg",
         "daily_rate": "RM 850",
         "amenities": [
@@ -159,7 +159,7 @@
       {
         "name": "Bilik Mesyuarat VIP",
         "capacity": "10 - 12 Pax",
-        "photo": "images/room3.jpg",
+        "photo": "images/room2-meeting.jpg",
         "_photo_comment": "EDIT: Gantikan dengan gambar bilik sebenar — letakkan dalam images/ dengan nama room3.jpg",
         "daily_rate": "RM 400",
         "amenities": [
@@ -180,28 +180,28 @@
 
     "profiles": [
       {
-        "name": "Dr. Abdul Aziz bin Sulaiman",
+        "name": "Dr. Abdul Aziz Bin Sulaiman",
         "title": "Lead Trainer & Senior Consultant",
         "photo": "images/trainer1.jpg",
         "_photo_comment": "EDIT: Gantikan dengan gambar jurulatih — letakkan dalam images/ dengan nama trainer1.jpg",
-        "credentials": ["Pakar Faraid", "Pengurusan Pusaka", "HRD Corp TTT"],
-        "bio": "Pakar rujuk dalam perancangan harta pusaka Islam dan kepimpinan korporat dengan lebih 15 tahun pengalaman mengendalikan kes-kes faraid dan perancangan legasi syarikat."
+        "credentials": ["Pengurus Harta Pusaka", "Hibah & Wasiat", "Leadership"],
+        "bio": "Pakar rujuk dalam pembangunan kepimpinan (Leadership Development), Team Building, dan Pembangunan Modal Insan serta pengurusan Harta Pusaka, Hibah, dan Wasiat."
       },
       {
-        "name": "Muhammad Hamizan",
+        "name": "Sir Muhammad Hamizan",
         "title": "AI & TVET Specialist",
         "photo": "images/trainer2.jpg",
         "_photo_comment": "EDIT: Gantikan dengan gambar jurulatih — letakkan dalam images/ dengan nama trainer2.jpg",
-        "credentials": ["AI Automation", "Pakar TVET", "Prompt Engineering"],
-        "bio": "Menerajui transformasi digital korporat dengan kepakaran teknikal dalam automasi kecerdasan buatan, pendigitalan operasi perniagaan dan latihan vokasional moden."
+        "credentials": ["AI Development", "TVET Educator", "Team Building"],
+        "bio": "Pakar pembangunan sistem (AI), pendidik TVET dalam bidang teknologi, dan jurulatih Team Building yang dinamik."
       },
       {
-        "name": "Puan Zuraidah binti Ali",
-        "title": "Perunding Pengurusan Strategik",
+        "name": "Sir Muhammad Nur Aiman Muqhlis",
+        "title": "Automotive TVET & Leadership Trainer",
         "photo": "images/trainer3.jpg",
         "_photo_comment": "EDIT: Gantikan dengan gambar jurulatih — letakkan dalam images/ dengan nama trainer3.jpg",
-        "credentials": ["Strategic Growth", "Risk Management", "ISO Auditor"],
-        "bio": "Membantu organisasi membangunkan pelan pengurusan risiko komprehensif, pematuhan piawaian antarabangsa dan strategi pertumbuhan korporat jangka panjang."
+        "credentials": ["Automotive TVET", "Public Speaking", "Leadership"],
+        "bio": "Pengkhususan dalam kepimpinan (Leadership Development), Team Building, pengucapan awam (Public Speaking), serta pendidikan teknologi automotif TVET."
       }
     ]
   },
