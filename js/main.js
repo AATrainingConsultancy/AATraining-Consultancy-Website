@@ -23,6 +23,9 @@ document.addEventListener("DOMContentLoaded", () => {
     btn.addEventListener("click", e => {
       document.querySelectorAll(".bilingual-btn").forEach(b => b.classList.remove("active"));
       e.target.classList.add("active");
+      const lang = e.target.textContent.trim().toLowerCase();
+      const file = lang === "en" ? "content-en.json" : "content.json";
+      loadContent(file);
     });
   });
 
@@ -44,22 +47,26 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   /* LOAD CONTENT.JSON */
-  fetch("content.json")
-    .then(r => r.json())
-    .then(d => {
-      populateMeta(d);
-      populateNav(d.nav, d.site);
-      populateHero(d.hero);
-      populateServices(d.services);
-      populateFacilities(d.facilities);
-      populateTrainers(d.trainers);
-      populateClients(d.clients);
-      populateEducatorFacilities(d.educator_facilities);
-      populateContact(d.contact, d.site);
-      populateFooter(d.footer, d.site);
-      setTimeout(initInteractions, 100); // Initialize interactions after DOM is ready
-    })
-    .catch(err => console.error("Error loading content.json:", err));
+  function loadContent(file) {
+    fetch(file)
+      .then(r => r.json())
+      .then(d => {
+        populateMeta(d);
+        populateNav(d.nav, d.site);
+        populateHero(d.hero);
+        populateServices(d.services);
+        populateFacilities(d.facilities);
+        populateTrainers(d.trainers);
+        populateClients(d.clients);
+        populateEducatorFacilities(d.educator_facilities);
+        populateContact(d.contact, d.site);
+        populateFooter(d.footer, d.site);
+        setTimeout(initInteractions, 100); // Initialize interactions after DOM is ready
+      })
+      .catch(err => console.error("Error loading " + file + ":", err));
+  }
+
+  loadContent("content.json");
 });
 
 /* HELPERS */
@@ -292,16 +299,41 @@ function populateContact(c, site) {
       c.booking_types.map(t => `<option value="${t.value}">${t.label}</option>`).join("");
   }
 
+  const waFloating = document.getElementById("whatsapp-floating");
+  if (waFloating && site.contact.whatsapp_number) {
+    waFloating.href = "https://wa.me/" + site.contact.whatsapp_number;
+  }
+
   const form = document.getElementById("contact-form");
   const msg = document.getElementById("contact-success-msg");
-  if (form) form.addEventListener("submit", e => {
+  
+  // Remove existing listener to avoid duplicates if re-rendered
+  const newForm = form.cloneNode(true);
+  form.parentNode.replaceChild(newForm, form);
+  
+  if (newForm) newForm.addEventListener("submit", e => {
     e.preventDefault();
-    if(msg) {
-      msg.textContent = c.form_success_message;
-      msg.style.display = "block";
-      setTimeout(() => msg.style.display = "none", 5000);
-    }
-    form.reset();
+    const formData = new FormData(newForm);
+    fetch(newForm.action, {
+      method: 'POST',
+      body: formData,
+      headers: {
+        'Accept': 'application/json'
+      }
+    }).then(response => {
+      if (response.ok) {
+        if(msg) {
+          msg.textContent = c.form_success_message;
+          msg.style.display = "block";
+          setTimeout(() => msg.style.display = "none", 5000);
+        }
+        newForm.reset();
+      } else {
+        alert("Oops! There was a problem submitting your form");
+      }
+    }).catch(error => {
+      alert("Oops! There was a problem submitting your form");
+    });
   });
 }
 

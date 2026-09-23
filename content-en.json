@@ -1,0 +1,294 @@
+{
+  "_readme": "EDITING GUIDE — To change text, update values below. To change images, replace files in the images/ folder with the EXACT same name.",
+
+  "site": {
+    "_comment": "MAIN COMPANY INFO",
+    "name": "AA Training & Consultancy",
+    "name_short": "AATC",
+    "tagline": "TRAINING & CONSULTANCY",
+    "registration": "REG: 202603151092 (003858558-D)",
+    "logo_path": "images/logo.png",
+    "_logo_comment": "EDIT: Change logo — place your logo file in images/ folder with the name logo.png",
+    "page_title": "AATC — Training & Consultancy in Ipoh",
+    "meta_description": "Leading high-impact corporate training, AI development, estate & will consultancy, and facility rental in Ipoh, Perak.",
+
+    "contact": {
+      "_comment": "CONTACT DETAILS — Update phone numbers, email and address here",
+      "phone_1": "019-555 2008",
+      "phone_2": "011-1447 5646",
+      "whatsapp_number": "60123456789",
+      "email": "aatc.ajit@gmail.com",
+      "address_line1": "1A Persiaran Seri Raia,",
+      "address_line2": "Taman Seri Raia, Kampung Kepayang,",
+      "address_line3": "31300 Ipoh, Perak",
+      "operating_hours_weekday": "Monday - Friday: 9:00 AM - 5:00 PM",
+      "operating_hours_weekend": "Saturday & Sunday: By Appointment"
+    },
+
+    "social_media": {
+      "_comment": "SOCIAL MEDIA LINKS — Put full URLs here, e.g. https://facebook.com/aatc",
+      "facebook": "#",
+      "linkedin": "#",
+      "whatsapp": "#",
+      "youtube": "#"
+    }
+  },
+
+  "nav": {
+    "_comment": "NAVIGATION MENU",
+    "links": [
+      { "label": "Home",       "href": "#" },
+      { "label": "Services",   "href": "#kursus-konsultansi" },
+      { "label": "Facilities", "href": "#fasiliti" },
+      { "label": "Trainers",   "href": "#trainers" },
+      { "label": "Clients",    "href": "#klien" },
+      { "label": "Contact",    "href": "#hubungi" }
+    ],
+    "book_btn_text": "Book Now"
+  },
+
+  "hero": {
+    "_comment": "HERO SECTION — Main top section of the page",
+    "badge_text": "Corporate Training & Consultancy Center",
+    "headline_line1": "Empowering People,",
+    "headline_line2": "Enhancing Performance.",
+    "description": "Leading provider of high-impact corporate training, AI system development, estate & will planning consultancy, and fully-equipped event spaces in Ipoh, Perak.",
+    "btn_primary_text": "Explore Courses & Consultancy",
+    "btn_primary_href": "#kursus-konsultansi",
+    "btn_secondary_text": "Book Seminar Room",
+    "btn_secondary_href": "#fasiliti",
+
+    "stats": [
+      { "value": "10+", "label": "Years Experience" },
+      { "value": "8",   "label": "Expert Trainers" },
+      { "value": "3",   "label": "Seminar Spaces" },
+      { "value": "45+", "label": "Clients" }
+    ],
+
+    "featured_trainer": {
+      "_comment": "HERO TRAINER CARD",
+      "photo": "images/chill-random.jpg",
+      "_photo_comment": "EDIT: Replace image — place file in images/ with name trainer-hero.jpg",
+      "name": "Dr. Abdul Aziz bin Sulaiman",
+      "title": "Lead Trainer & Senior Consultant",
+      "google_rating": "Rated 5.0 on Google"
+    }
+  },
+
+  "services": {
+    "_comment": "SERVICES SECTION",
+    "section_badge": "Key Expertise Areas",
+    "section_title": "AI Training & Strategic Roles",
+    "section_description": "AATC provides a comprehensive corporate development ecosystem tailored to empower human resource capacity and organizational digital competency.",
+    "link_text": "Learn More",
+
+    "cards": [
+      {
+        "icon": "bolt",
+        "title": "AI & Power of Productivity",
+        "description": "Intensive training on leveraging AI technology to boost daily office productivity.",
+        "bullets": ["Repetitive task automation", "Effective prompt engineering", "AI integration in operations", "Rapid data analysis"]
+      },
+      {
+        "icon": "memory",
+        "title": "Technological Transformation",
+        "description": "Strategic guidance towards full digitalization in line with the 4.0 industrial revolution.",
+        "bullets": ["Digital roadmap planning", "TVET and technical skills", "IT infrastructure modernization", "Cyber security management"]
+      },
+      {
+        "icon": "psychology",
+        "title": "Innovative Leadership & Strategy",
+        "description": "Executive development programs designed to produce agile thinkers.",
+        "bullets": ["High-performance team building", "Crisis leadership & adaptation", "Corporate public communication", "Ethics and integrity modules"]
+      },
+      {
+        "icon": "gpp_maybe",
+        "title": "Risk Management",
+        "description": "Identify, assess, and mitigate organizational risks before they become crises.",
+        "bullets": ["Company risk matrix assessment", "Disaster operations recovery", "ISO standard compliance", "Company asset protection"]
+      },
+      {
+        "icon": "trending_up",
+        "title": "Strategic Growth Consulting",
+        "description": "Data-driven consulting to maximize return on investment (ROI).",
+        "bullets": ["Training needs analysis (TNA)", "Corporate direction setting", "Branding empowerment", "New market sharing"]
+      }
+    ],
+
+    "featured_card": {
+      "_comment": "SPECIAL NAVY FEATURED CARD",
+      "badge": "Specialized Expertise",
+      "title": "Estate Planning & Hibah",
+      "description": "Exclusive sessions on Shariah inheritance management, will writing, and corporate legacy protection.",
+      "link_text": "Get Expert Advice",
+      "bullets": ["Conditional Hibah Writing", "1/3 Will Preparation", "Faraid Calculator", "Syariah Consultation"]
+    }
+  },
+
+  "facilities": {
+    "_comment": "SEMINAR ROOMS SECTION",
+    "section_badge": "Corporate-Grade Spaces & Facilities",
+    "section_title": "Seminar Rooms & Event Spaces in Ipoh",
+
+    "rooms": [
+      {
+        "name": "Tuition / Class Room",
+        "capacity": "10 - 30 Pax",
+        "photo": "images/room1-tuition.png",
+        "_photo_comment": "EDIT: Replace with actual room photo — place in images/ with name room1.jpg",
+        "daily_rate": "RM 400",
+        "amenities": [
+          { "icon": "ac_unit",    "label": "Fully Air-Conditioned" },
+          { "icon": "wifi",       "label": "High-Speed Internet" },
+          { "icon": "co_present", "label": "Whiteboard & Markers" }
+        ],
+        "popular": false
+      },
+      {
+        "name": "Main Seminar Hall",
+        "capacity": "40 - 60 Pax",
+        "photo": "images/room3-seminar.png",
+        "_photo_comment": "EDIT: Replace with actual room photo — place in images/ with name room2.jpg",
+        "daily_rate": "RM 850",
+        "amenities": [
+          { "icon": "cast",    "label": "Projector & Large Screen" },
+          { "icon": "mic",     "label": "PA System & Microphones" },
+          { "icon": "ac_unit", "label": "Fully Air-Conditioned" }
+        ],
+        "popular": true
+      },
+      {
+        "name": "VIP Meeting Room",
+        "capacity": "10 - 12 Pax",
+        "photo": "images/room2-meeting.jpg",
+        "_photo_comment": "EDIT: Replace with actual room photo — place in images/ with name room3.jpg",
+        "daily_rate": "RM 400",
+        "amenities": [
+          { "icon": "event_seat", "label": "Executive Seating" },
+          { "icon": "tv",         "label": "Smart TV for Display" },
+          { "icon": "local_cafe", "label": "Basic Refreshment Corner" }
+        ],
+        "popular": false
+      }
+    ],
+    "book_btn_text": "Book Now"
+  },
+
+  "trainers": {
+    "_comment": "TRAINERS SECTION",
+    "section_badge": "Our Expert Team",
+    "section_title": "AATC's Core Trainers & Consultants",
+
+    "profiles": [
+      {
+        "name": "Dr. Abdul Aziz Bin Sulaiman",
+        "title": "Lead Trainer & Senior Consultant",
+        "photo": "images/trainer1.jpg",
+        "photo_hover": "images/trainer1-alt.jpg",
+        "image_position": "top center",
+        "hover_image_position": "center 40%",
+        "_photo_comment": "EDIT: Replace with trainer photo — place in images/ with name trainer1.jpg",
+        "credentials": ["Estate Manager", "Hibah & Will", "Leadership"],
+        "bio": "Extensively experienced in Leadership Development, Team Building, and Human Capital Development as well as Estate Management, Hibah, and Wills."
+      },
+      {
+        "name": "Sir Muhammad Hamizan",
+        "title": "AI & TVET Specialist",
+        "photo": "images/trainer2.jpg",
+        "photo_hover": "images/trainer2-alt.jpg",
+        "image_position": "top center",
+        "hover_image_position": "center 25%",
+        "_photo_comment": "EDIT: Replace with trainer photo — place in images/ with name trainer2.jpg",
+        "credentials": ["AI Development", "TVET Educator", "Team Building"],
+        "bio": "Experienced in AI system development, TVET educator in the technology field, and dynamic Team Building trainer."
+      },
+      {
+        "name": "Sir Muhammad Nur Aiman Muqhlis",
+        "title": "Automotive TVET & Leadership Trainer",
+        "photo": "images/trainer3.jpg",
+        "photo_hover": "images/trainer3-alt.jpg",
+        "image_position": "center 15%",
+        "_photo_comment": "EDIT: Replace with trainer photo — place in images/ with name trainer3.jpg",
+        "credentials": ["Automotive TVET", "Public Speaking", "Leadership"],
+        "bio": "Specializes in Leadership Development, Team Building, Public Speaking, as well as TVET automotive technology education."
+      }
+    ]
+  },
+
+  "clients": {
+    "_comment": "CLIENTS SECTION",
+    "section_badge": "AATC Client Network",
+    "section_title": "Trusted by Various Sectors Nationwide",
+    "section_description": "We are proud to be a strategic partner to leading organizations in driving human capital excellence.",
+    "clients_count_number": "45+ Clients",
+    "clients_count_suffix": "Have Benefited",
+
+    "sectors": [
+      { "icon": "account_balance", "title": "Ministries & Statutory Bodies", "description": "Empowering the integrity and operational efficiency of civil servants and government agencies." },
+      { "icon": "domain",          "title": "Corporate Companies & NGOs",    "description": "Providing leadership and digitalization training for sustainable corporate growth." },
+      { "icon": "school",          "title": "Educational Institutions & IPTS",  "description": "Collaborating with universities and TVET centers in producing holistic graduates." }
+    ],
+
+    "logos": [
+      { "_comment": "CLIENT LOGOS — Replace path with actual logo. Example: images/client1.png" },
+      { "name": "Client 1", "logo": "images/client1.png" },
+      { "name": "Client 2", "logo": "images/client2.png" },
+      { "name": "Client 3", "logo": "images/client3.png" },
+      { "name": "Client 4", "logo": "images/client4.png" },
+      { "name": "Client 5", "logo": "images/client5.png" }
+    ]
+  },
+
+  "educator_facilities": {
+    "_comment": "EDUCATOR FACILITIES SECTION",
+    "section_badge": "Exclusive",
+    "section_title": "AATC Educator & Trainer Facilities List",
+
+    "cards": [
+      { "icon": "chair",         "title": "Exclusive Lounge",    "description": "Private lounge equipped with beverage facilities and comfortable sofas for trainers to prepare before sessions.", "btn_text": "View Facilities" },
+      { "icon": "mic",           "title": "Premium AV Equipment",     "description": "Latest audio-visual system, wireless microphones and smart LED screens for interactive presentations.", "btn_text": "Technical Specs" },
+      { "icon": "support_agent", "title": "On-Site Tech Support", "description": "Technical support team available at all times to ensure the smooth running of your every program.", "btn_text": "More Support" }
+    ],
+
+    "banner": {
+      "title": "Interested in Renting Our Training Spaces?",
+      "description": "Get special packages for long-term rentals and strategic partnerships.",
+      "btn_text": "Contact Coordinator"
+    }
+  },
+
+  "contact": {
+    "_comment": "CONTACT SECTION",
+    "section_badge": "Contact Us",
+    "section_title": "Location & Booking",
+    "form_title": "Inquiry & Booking Form",
+    "form_success_message": "Thank you. Your message has been sent. We will contact you shortly.",
+    "map_embed_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15904.764426555182!2d101.1099!3d4.5513!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31ca118b6fc8e265%3A0xc3f173bfec953e50!2s31300%20Kampung%20Kepayang%2C%20Perak!5e0!3m2!1sen!2smy!4v1690000000000!5m2!1sen!2smy",
+    "booking_types": [
+      { "value": "bilik_seminar", "label": "Seminar Room" },
+      { "value": "latihan",       "label": "Training Program" },
+      { "value": "konsultansi",   "label": "Consultancy Services" }
+    ]
+  },
+
+  "footer": {
+    "_comment": "FOOTER — Copyright info",
+    "copyright": "2026 AA Training & Consultancy. All Rights Reserved.",
+    "col1_description": "Leading high-impact corporate training, AI system development, and estate & will consultancy.",
+    "col2_title": "Quick Links",
+    "col2_links": [
+      { "label": "Home",             "href": "#" },
+      { "label": "About Us",         "href": "#" },
+      { "label": "Trainer Roster",   "href": "#trainers" },
+      { "label": "Client Network",   "href": "#klien" }
+    ],
+    "col3_title": "Our Services",
+    "col3_links": [
+      { "label": "AI Training & Consultancy", "href": "#kursus-konsultansi" },
+      { "label": "Estate & Hibah Planning",   "href": "#kursus-konsultansi" },
+      { "label": "Event Facility Rental",     "href": "#fasiliti" },
+      { "label": "Educator Facilities",       "href": "#kemudahan-pendidik" }
+    ],
+    "col4_title": "Contact Us"
+  }
+}
