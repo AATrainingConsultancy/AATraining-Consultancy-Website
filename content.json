@@ -184,24 +184,27 @@
         "title": "Lead Trainer & Senior Consultant",
         "photo": "images/trainer1.jpg",
         "photo_hover": "images/trainer1-alt.jpg",
+        "image_position": "top center",
         "_photo_comment": "EDIT: Gantikan dengan gambar jurulatih — letakkan dalam images/ dengan nama trainer1.jpg",
         "credentials": ["Pengurus Harta Pusaka", "Hibah & Wasiat", "Leadership"],
-        "bio": "Pakar rujuk dalam pembangunan kepimpinan (Leadership Development), Team Building, dan Pembangunan Modal Insan serta pengurusan Harta Pusaka, Hibah, dan Wasiat."
+        "bio": "Berpengalaman luas dalam pembangunan kepimpinan (Leadership Development), Team Building, dan Pembangunan Modal Insan serta pengurusan Harta Pusaka, Hibah, dan Wasiat."
       },
       {
         "name": "Sir Muhammad Hamizan",
         "title": "AI & TVET Specialist",
         "photo": "images/trainer2.jpg",
         "photo_hover": "images/trainer2-alt.jpg",
+        "image_position": "center 20%",
         "_photo_comment": "EDIT: Gantikan dengan gambar jurulatih — letakkan dalam images/ dengan nama trainer2.jpg",
         "credentials": ["AI Development", "TVET Educator", "Team Building"],
-        "bio": "Pakar pembangunan sistem (AI), pendidik TVET dalam bidang teknologi, dan jurulatih Team Building yang dinamik."
+        "bio": "Berpengalaman dalam pembangunan sistem (AI), pendidik TVET dalam bidang teknologi, dan jurulatih Team Building yang dinamik."
       },
       {
         "name": "Sir Muhammad Nur Aiman Muqhlis",
         "title": "Automotive TVET & Leadership Trainer",
         "photo": "images/trainer3.jpg",
         "photo_hover": "images/trainer3-alt.jpg",
+        "image_position": "center 15%",
         "_photo_comment": "EDIT: Gantikan dengan gambar jurulatih — letakkan dalam images/ dengan nama trainer3.jpg",
         "credentials": ["Automotive TVET", "Public Speaking", "Leadership"],
         "bio": "Pengkhususan dalam kepimpinan (Leadership Development), Team Building, pengucapan awam (Public Speaking), serta pendidikan teknologi automotif TVET."
