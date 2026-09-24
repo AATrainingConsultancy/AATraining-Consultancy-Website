@@ -59,10 +59,10 @@
     "btn_secondary_href": "#fasiliti",
 
     "stats": [
-      { "value": "10+", "label": "Tahun Pengalaman" },
-      { "value": "8",   "label": "Pakar Jurulatih" },
+      { "value": "15+", "label": "Tahun Pengalaman Bersama" },
+      { "value": "4",   "label": "Jurulatih Bertauliah — Dan Semakin Berkembang" },
       { "value": "3",   "label": "Ruang Seminar" },
-      { "value": "45+", "label": "Klien" }
+      { "value": "⭐ 5.0", "label": "Penarafan Google" }
     ],
 
     "featured_trainer": {
@@ -73,6 +73,25 @@
       "title": "Jurulatih Utama & Perunding Kanan",
       "google_rating": "Diberi Penarafan 5.0 di Google"
     }
+  },
+
+  "about": {
+    "_comment": "VISI, MISI & NILAI TERAS / VISION, MISSION & CORE VALUES",
+    "section_badge": "Tentang Kami",
+    "section_title": "Visi, Misi & Nilai Teras",
+    "vision_title": "Visi Kami",
+    "vision_text": "Menjadi pusat latihan dan perundingan korporat terulung yang diiktiraf kerana kecemerlangan dan inovasi.",
+    "mission_title": "Misi Kami",
+    "mission_text": "Memperkasa organisasi dan individu melalui latihan berimpak tinggi dan perundingan strategik, memupuk pertumbuhan dan kejayaan berterusan.",
+    "core_values_title": "Nilai Teras",
+    "core_values": [
+      { "icon": "star", "title": "Kecemerlangan", "description": "Kami berusaha untuk kualiti tertinggi dalam semua yang kami lakukan." },
+      { "icon": "verified_user", "title": "Integriti", "description": "Kami menjalankan perniagaan dengan kejujuran dan etika yang tidak berbelah bahagi." },
+      { "icon": "work", "title": "Profesionalisme", "description": "Kami mengekalkan piawaian tingkah laku profesional yang tertinggi." },
+      { "icon": "lightbulb", "title": "Inovasi", "description": "Kami menerima idea baharu dan penyelesaian kreatif." },
+      { "icon": "groups", "title": "Fokus Pelanggan", "description": "Kami mengutamakan keperluan dan kejayaan klien kami." },
+      { "icon": "trending_up", "title": "Peningkatan Berterusan", "description": "Kami komited terhadap pembelajaran dan pembangunan berterusan." }
+    ]
   },
 
   "services": {
@@ -211,17 +230,28 @@
         "_photo_comment": "EDIT: Gantikan dengan gambar jurulatih — letakkan dalam images/ dengan nama trainer3.jpg",
         "credentials": ["TVET Automotif", "Pengucapan Awam", "Kepimpinan"],
         "bio": "Pengkhususan dalam kepimpinan, Pembinaan Pasukan, Pengucapan Awam, serta pendidikan teknologi automotif TVET."
+      },
+      {
+        "name": "Nama Jurulatih 4",
+        "title": "Jurulatih & Perunding",
+        "photo": "image for website/Trainer4.jpg.png",
+        "photo_hover": "image for website/Trainer4.1.jpg.png",
+        "image_position": "top center",
+        "hover_image_position": "top center",
+        "credentials": ["Latihan Korporat", "Kepimpinan", "Pembinaan Pasukan"],
+        "bio": "Profesional berpengalaman yang berdedikasi dalam menyampaikan latihan korporat dan sesi pembinaan pasukan berkualiti tinggi."
       }
-    ]
+    ],
+    "bottom_note": "Kami sedang berkembang! Jurulatih berpengalaman dialu-alukan untuk memohon."
   },
 
   "clients": {
     "_comment": "SEKSYEN KLIEN / CLIENTS SECTION",
     "section_badge": "Rangkaian Klien AATC",
-    "section_title": "Dipercayai Pelbagai Sektor Di Seluruh Negara",
+    "section_title": "Rangkaian Kami Yang Semakin Berkembang",
     "section_description": "Kami berbangga menjadi rakan strategik kepada organisasi terkemuka dalam memacu kecemerlangan modal insan.",
-    "clients_count_number": "45+ Klien",
-    "clients_count_suffix": "Telah Mendapat Manfaat",
+    "trust_badge": "Diberi Penarafan 5.0 di Google",
+    "cta_text": "Ingin menjadi salah satu daripada kisah kejayaan kami? Mari bincang.",
 
     "sectors": [
       { "icon": "account_balance", "title": "Kementerian & Badan Berkanun", "description": "Memperkasa integriti dan kecekapan operasi penjawat awam serta agensi kerajaan." },

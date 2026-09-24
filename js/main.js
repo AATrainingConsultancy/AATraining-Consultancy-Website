@@ -54,6 +54,7 @@ document.addEventListener("DOMContentLoaded", () => {
         populateMeta(d);
         populateNav(d.nav, d.site);
         populateHero(d.hero);
+        if (d.about) populateAbout(d.about);
         populateServices(d.services);
         populateFacilities(d.facilities);
         populateTrainers(d.trainers);
@@ -124,6 +125,28 @@ function populateHero(hero) {
     setText("hero-trainer-rating", t.google_rating);
     const img = document.getElementById("hero-trainer-photo");
     if (img) { img.src = t.photo; img.alt = t.name; }
+  }
+}
+
+/* ABOUT */
+function populateAbout(a) {
+  set("about-header", badge(a.section_badge) + heading(a.section_title));
+  setText("about-vision-title", a.vision_title);
+  setText("about-vision-text", a.vision_text);
+  setText("about-mission-title", a.mission_title);
+  setText("about-mission-text", a.mission_text);
+  setText("about-core-values-title", a.core_values_title);
+
+  const grid = document.getElementById("about-core-values-grid");
+  if (grid && a.core_values) {
+    grid.innerHTML = a.core_values.map(c => `
+      <div class="card" style="padding:1.5rem;background-color:#FFFFFF;border:1px solid var(--border);box-shadow:var(--shadow-1);display:flex;flex-direction:column;align-items:center;text-align:center;">
+        <div style="background-color:rgba(245,166,35,0.1);color:#F5A623;padding:12px;border-radius:50%;margin-bottom:1rem;display:flex;align-items:center;justify-content:center;">
+          <span class="material-symbols-outlined" style="font-size:28px;">${c.icon}</span>
+        </div>
+        <h4 class="font-display" style="font-size:1.125rem;font-weight:700;color:var(--primary);margin-bottom:8px;">${c.title}</h4>
+        <p style="font-size:0.875rem;color:var(--text-muted);line-height:1.5;">${c.description}</p>
+      </div>`).join("");
   }
 }
 
@@ -230,6 +253,13 @@ function populateTrainers(t) {
         <p style="color:var(--text-muted);font-size:0.875rem;flex:1;line-height:1.6;">${p.bio}</p>
       </div>
     </div>`).join("");
+    
+  if (t.bottom_note) {
+    setText("trainers-bottom-note", t.bottom_note);
+  } else {
+    const el = document.getElementById("trainers-bottom-note");
+    if (el) el.style.display = "none";
+  }
 }
 
 /* CLIENTS */
@@ -255,8 +285,14 @@ function populateClients(c) {
     const logoHTML = logos.length
       ? logos.map(l => `<img src="${l.logo}" alt="${l.name}" loading="lazy" style="height:48px;object-fit:contain;opacity:0.5;filter:grayscale(100%);" onerror="this.outerHTML='<span style=\\'font-size:1rem;font-weight:700;color:var(--text-muted);opacity:0.5;\\'>${l.name}</span>'">`).join("")
       : `<span style="color:var(--text-muted);opacity:0.5;font-size:0.875rem;">Logo klien akan dipaparkan di sini.</span>`;
-    banner.innerHTML = `<h3 class="font-display" style="font-size:1.5rem;font-weight:800;color:var(--primary);margin-bottom:2rem;">Lebih <span style="color:#F5A623;">${c.clients_count_number}</span> ${c.clients_count_suffix}</h3>
-      <div style="display:flex;flex-wrap:wrap;justify-content:center;gap:2rem;align-items:center;">${logoHTML}</div>`;
+    banner.innerHTML = `
+      <div style="display:inline-flex;align-items:center;gap:6px;background-color:#FFFFFF;padding:8px 16px;border-radius:9999px;border:1px solid #e2e8f0;margin-bottom:2rem;box-shadow:0 4px 6px rgba(0,0,0,0.05);">
+        <span class="material-symbols-outlined" style="color:#F5A623;font-size:20px;font-variation-settings:'FILL' 1;">star</span>
+        <span style="font-size:0.875rem;font-weight:700;color:var(--primary);">${c.trust_badge}</span>
+      </div>
+      <div style="display:flex;flex-wrap:wrap;justify-content:center;gap:2rem;align-items:center;margin-bottom:2rem;">${logoHTML}</div>
+      ${c.cta_text ? `<div style="margin-top:2rem;padding-top:2rem;border-top:1px solid #e2e8f0;"><a href="#hubungi" style="font-size:1.125rem;font-weight:700;color:var(--primary);text-decoration:none;display:inline-flex;align-items:center;gap:8px;transition:color 0.2s;" onmouseover="this.style.color='#F5A623'" onmouseout="this.style.color='var(--primary)'">${c.cta_text} <span class="material-symbols-outlined">arrow_forward</span></a></div>` : ''}
+    `;
   }
 }
 

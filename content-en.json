@@ -59,10 +59,10 @@
     "btn_secondary_href": "#fasiliti",
 
     "stats": [
-      { "value": "10+", "label": "Years Experience" },
-      { "value": "8",   "label": "Expert Trainers" },
+      { "value": "15+", "label": "Years Combined Experience" },
+      { "value": "4",   "label": "Certified Trainers — And Growing" },
       { "value": "3",   "label": "Seminar Spaces" },
-      { "value": "45+", "label": "Clients" }
+      { "value": "⭐ 5.0", "label": "Google Rating" }
     ],
 
     "featured_trainer": {
@@ -73,6 +73,25 @@
       "title": "Lead Trainer & Senior Consultant",
       "google_rating": "Rated 5.0 on Google"
     }
+  },
+
+  "about": {
+    "_comment": "VISION, MISSION & CORE VALUES",
+    "section_badge": "About Us",
+    "section_title": "Vision, Mission & Core Values",
+    "vision_title": "Our Vision",
+    "vision_text": "To be the premier corporate training and consultancy center recognized for excellence and innovation.",
+    "mission_title": "Our Mission",
+    "mission_text": "To empower organizations and individuals through high-impact training and strategic consultancy, fostering continuous growth and success.",
+    "core_values_title": "Core Values",
+    "core_values": [
+      { "icon": "star", "title": "Excellence", "description": "We strive for the highest quality in everything we do." },
+      { "icon": "verified_user", "title": "Integrity", "description": "We conduct our business with uncompromising honesty and ethics." },
+      { "icon": "work", "title": "Professionalism", "description": "We maintain the highest standards of professional conduct." },
+      { "icon": "lightbulb", "title": "Innovation", "description": "We embrace new ideas and creative solutions." },
+      { "icon": "groups", "title": "Customer Focus", "description": "We prioritize our clients' needs and success." },
+      { "icon": "trending_up", "title": "Continuous Improvement", "description": "We are committed to ongoing learning and development." }
+    ]
   },
 
   "services": {
@@ -211,17 +230,28 @@
         "_photo_comment": "EDIT: Replace with trainer photo — place in images/ with name trainer3.jpg",
         "credentials": ["Automotive TVET", "Public Speaking", "Leadership"],
         "bio": "Specializes in Leadership Development, Team Building, Public Speaking, as well as TVET automotive technology education."
+      },
+      {
+        "name": "Trainer 4 Name",
+        "title": "Trainer & Consultant",
+        "photo": "image for website/Trainer4.jpg.png",
+        "photo_hover": "image for website/Trainer4.1.jpg.png",
+        "image_position": "top center",
+        "hover_image_position": "top center",
+        "credentials": ["Corporate Training", "Leadership", "Team Building"],
+        "bio": "Experienced professional dedicated to delivering high-quality corporate training and team building sessions."
       }
-    ]
+    ],
+    "bottom_note": "We're expanding! Experienced trainers welcome to apply."
   },
 
   "clients": {
     "_comment": "CLIENTS SECTION",
     "section_badge": "AATC Client Network",
-    "section_title": "Trusted by Various Sectors Nationwide",
+    "section_title": "Our Growing Network",
     "section_description": "We are proud to be a strategic partner to leading organizations in driving human capital excellence.",
-    "clients_count_number": "45+ Clients",
-    "clients_count_suffix": "Have Benefited",
+    "trust_badge": "Rated 5.0 on Google",
+    "cta_text": "Want to be among our success stories? Let's talk.",
 
     "sectors": [
       { "icon": "account_balance", "title": "Ministries & Statutory Bodies", "description": "Empowering the integrity and operational efficiency of civil servants and government agencies." },
