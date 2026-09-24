@@ -60,7 +60,7 @@
 
     "stats": [
       { "value": "15+", "label": "Years Combined Experience" },
-      { "value": "4",   "label": "Certified Trainers — And Growing" },
+      { "value": "4",   "label": "Experienced Trainers — And Growing" },
       { "value": "3",   "label": "Seminar Spaces" },
       { "value": "⭐ 5.0", "label": "Google Rating" }
     ],
@@ -97,8 +97,8 @@
   "services": {
     "_comment": "SERVICES SECTION",
     "section_badge": "Key Expertise Areas",
-    "section_title": "AI Training & Strategic Roles",
-    "section_description": "AATC provides a comprehensive corporate development ecosystem tailored to empower human resource capacity and organizational digital competency.",
+    "section_title": "AI Training, Competency Development & Organizational Strategy",
+    "section_description": "AATC provides comprehensive corporate development solutions to empower human resources, enhance organizational efficiency, and effectively support the implementation of technology and digital strategies.",
     "link_text": "Learn More",
 
     "cards": [

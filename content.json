@@ -60,7 +60,7 @@
 
     "stats": [
       { "value": "15+", "label": "Tahun Pengalaman Bersama" },
-      { "value": "4",   "label": "Jurulatih Bertauliah — Dan Semakin Berkembang" },
+      { "value": "4",   "label": "Jurulatih Berpengalaman — Dan Semakin Berkembang" },
       { "value": "3",   "label": "Ruang Seminar" },
       { "value": "⭐ 5.0", "label": "Penarafan Google" }
     ],
@@ -97,8 +97,8 @@
   "services": {
     "_comment": "SEKSYEN PERKHIDMATAN / SERVICES SECTION",
     "section_badge": "Bidang Kepakaran Utama",
-    "section_title": "Sulat Latihan AI, dan Peran Strategik",
-    "section_description": "AATC menyediakan ekosistem pembangunan korporat menyeluruh yang dirangka khas untuk memperkasa kapasiti sumber manusia dan kecekapan digital organisasi.",
+    "section_title": "Latihan AI, Pembangunan Kompetensi & Strategi Organisasi",
+    "section_description": "AATC menyediakan penyelesaian pembangunan korporat yang menyeluruh bagi memperkasa sumber manusia, meningkatkan kecekapan organisasi dan menyokong penerapan teknologi serta strategi digital secara berkesan.",
     "link_text": "Ketahui Lebih Lanjut",
 
     "cards": [
