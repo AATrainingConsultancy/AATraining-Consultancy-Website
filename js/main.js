@@ -124,7 +124,11 @@ function populateHero(hero) {
     setText("hero-trainer-title",  t.title);
     setText("hero-trainer-rating", t.google_rating);
     const img = document.getElementById("hero-trainer-photo");
-    if (img) { img.src = t.photo; img.alt = t.name; }
+    if (img) { 
+      img.src = t.photo; 
+      img.alt = t.name; 
+      img.style.display = ''; 
+    }
     const vidLink = document.getElementById("hero-trainer-video-link");
     if (vidLink && t.video_link) {
       vidLink.href = t.video_link;
