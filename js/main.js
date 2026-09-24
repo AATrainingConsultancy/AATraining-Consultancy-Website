@@ -125,6 +125,13 @@ function populateHero(hero) {
     setText("hero-trainer-rating", t.google_rating);
     const img = document.getElementById("hero-trainer-photo");
     if (img) { img.src = t.photo; img.alt = t.name; }
+    const vidLink = document.getElementById("hero-trainer-video-link");
+    if (vidLink && t.video_link) {
+      vidLink.href = t.video_link;
+      vidLink.style.display = "flex";
+    } else if (vidLink) {
+      vidLink.style.display = "none";
+    }
   }
 }
 

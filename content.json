@@ -67,8 +67,9 @@
 
     "featured_trainer": {
       "_comment": "KAD JURULATIH UTAMA DI HERO / HERO TRAINER CARD",
-      "photo": "images/chill-random.jpg",
+      "photo": "images/trainer1.jpg",
       "_photo_comment": "EDIT: Gantikan gambar — letakkan fail dalam images/ dengan nama trainer-hero.jpg",
+      "video_link": "https://www.tiktok.com/@aatraining.consul/video/7672624995540978964?is_from_webapp=1&sender_device=pc",
       "name": "Dr. Abdul Aziz bin Sulaiman",
       "title": "Jurulatih Utama & Perunding Kanan",
       "google_rating": "Diberi Penarafan 5.0 di Google"

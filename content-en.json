@@ -67,8 +67,9 @@
 
     "featured_trainer": {
       "_comment": "HERO TRAINER CARD",
-      "photo": "images/chill-random.jpg",
+      "photo": "images/trainer1.jpg",
       "_photo_comment": "EDIT: Replace image — place file in images/ with name trainer-hero.jpg",
+      "video_link": "https://www.tiktok.com/@aatraining.consul/video/7672624995540978964?is_from_webapp=1&sender_device=pc",
       "name": "Dr. Abdul Aziz bin Sulaiman",
       "title": "Lead Trainer & Senior Consultant",
       "google_rating": "Rated 5.0 on Google"
