@@ -241,6 +241,16 @@
         "hover_image_position": "top center",
         "credentials": ["Business Studies", "Banking", "Sports & Fitness"],
         "bio": "Professionally experienced in the banking sector with a background in Business Studies and 4 years of industry experience. Demonstrates strong professional knowledge in banking operations, with additional skills and active involvement in sports and fitness."
+      },
+      {
+        "name": "Sir. Muhammad Aiman Aliff",
+        "title": "TVET Automotive & Leadership Trainer",
+        "photo": "images/trainer5.jpg",
+        "photo_hover": "images/trainer5-alt.jpg",
+        "image_position": "top center",
+        "hover_image_position": "28% 65%",
+        "credentials": ["R&D Engineering", "2D & 3D Design", "Program Management"],
+        "bio": "Experienced in Research and Development (R&D) Engineering with expertise in 2D and 3D design, as well as project management and leadership skills, driven by innovation and continuous improvement."
       }
     ],
     "bottom_note": "We're expanding! Experienced trainers welcome to apply."
