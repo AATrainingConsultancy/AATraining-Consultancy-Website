@@ -251,6 +251,15 @@
         "hover_image_position": "28% 65%",
         "credentials": ["R&D Engineering", "2D & 3D Design", "Program Management"],
         "bio": "Experienced in Research and Development (R&D) Engineering with expertise in 2D and 3D design, as well as project management and leadership skills, driven by innovation and continuous improvement."
+      },
+      {
+        "name": "Ustaz Jamil Bin Mohd. Sapri",
+        "title": "Islamic Law & Family Consultant",
+        "photo": "images/trainer6.jpg",
+        "photo_hover": "",
+        "image_position": "top center",
+        "credentials": ["Islamic Estate Law", "Islamic Family Law (Munakahat)", "Islamic Judiciary"],
+        "bio": "Extensively experienced in Islamic religious affairs management, specializing in Estate Law and Munakahat. Possesses deep expertise in Islamic legal and judiciary administration through active service with Islamic Religious Department committees."
       }
     ],
     "bottom_note": "We're expanding! Experienced trainers welcome to apply."
