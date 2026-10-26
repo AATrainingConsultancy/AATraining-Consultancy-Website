@@ -111,7 +111,9 @@ function populateHero(hero, site) {
     setText("hero-hrdcorp-sub", site.hrd_corp.badge_sub);
     setText("hero-hrdcorp-title", site.hrd_corp.badge_title);
     const heroHrdImg = document.getElementById("hero-hrdcorp-img");
-    if (heroHrdImg && site.hrd_corp.logo) heroHrdImg.src = site.hrd_corp.logo;
+    if (heroHrdImg) {
+      heroHrdImg.src = site.hrd_corp.claimable_logo || site.hrd_corp.logo || "images/hrd-corp-claimable.png";
+    }
   }
 
   const p = document.getElementById("hero-btn-primary");
@@ -453,7 +455,9 @@ function populateFooter(f, site) {
   if (site && site.hrd_corp) {
     setText("footer-hrdcorp-text", site.hrd_corp.footer_text);
     const footerHrdImg = document.getElementById("footer-hrdcorp-img");
-    if (footerHrdImg && site.hrd_corp.logo) footerHrdImg.src = site.hrd_corp.logo;
+    if (footerHrdImg) {
+      footerHrdImg.src = site.hrd_corp.registered_logo || site.hrd_corp.logo || "images/hrd-corp.png";
+    }
   }
 
   const footerWaLink = document.getElementById("footer-contact-whatsapp");
