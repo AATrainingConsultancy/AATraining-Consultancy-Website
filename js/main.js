@@ -438,6 +438,7 @@ function populateFooter(f, site) {
 
   setAttr("social-facebook",  "href", site.social_media.facebook);
   if (site.social_media.instagram) setAttr("social-instagram", "href", site.social_media.instagram);
+  if (site.social_media.tiktok) setAttr("social-tiktok", "href", site.social_media.tiktok);
   setAttr("social-linkedin",  "href", site.social_media.linkedin);
   setAttr("social-whatsapp",  "href", site.social_media.whatsapp);
   setAttr("social-youtube",   "href", site.social_media.youtube);
