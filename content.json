@@ -30,6 +30,12 @@
       "linkedin": "#",
       "whatsapp": "#",
       "youtube": "#"
+    },
+    "hrd_corp": {
+      "logo": "images/hrd-corp.png",
+      "badge_sub": "Penyedia Latihan Berdaftar",
+      "badge_title": "Kursus Boleh Dituntut HRD Corp",
+      "footer_text": "Penyedia Latihan Berdaftar HRD Corp"
     }
   },
   "nav": {

@@ -33,6 +33,13 @@
       "linkedin": "#",
       "whatsapp": "#",
       "youtube": "#"
+    },
+
+    "hrd_corp": {
+      "logo": "images/hrd-corp.png",
+      "badge_sub": "Registered Training Provider",
+      "badge_title": "HRD Corp Claimable Courses",
+      "footer_text": "HRD Corp Registered Training Provider"
     }
   },
 

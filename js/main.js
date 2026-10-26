@@ -53,7 +53,7 @@ document.addEventListener("DOMContentLoaded", () => {
       .then(d => {
         populateMeta(d);
         populateNav(d.nav, d.site);
-        populateHero(d.hero);
+        populateHero(d.hero, d.site);
         if (d.about) populateAbout(d.about);
         populateServices(d.services);
         populateFacilities(d.facilities);
@@ -101,11 +101,18 @@ function populateNav(nav, site) {
 }
 
 /* HERO */
-function populateHero(hero) {
+function populateHero(hero, site) {
   setText("hero-badge",       hero.badge_text);
   setText("hero-line1",       hero.headline_line1);
   setText("hero-line2",       hero.headline_line2);
   setText("hero-description", hero.description);
+
+  if (site && site.hrd_corp) {
+    setText("hero-hrdcorp-sub", site.hrd_corp.badge_sub);
+    setText("hero-hrdcorp-title", site.hrd_corp.badge_title);
+    const heroHrdImg = document.getElementById("hero-hrdcorp-img");
+    if (heroHrdImg && site.hrd_corp.logo) heroHrdImg.src = site.hrd_corp.logo;
+  }
 
   const p = document.getElementById("hero-btn-primary");
   if (p) { p.textContent = hero.btn_primary_text; p.href = hero.btn_primary_href; }
@@ -442,6 +449,12 @@ function populateFooter(f, site) {
   setText("footer-contact-address", `${site.contact.address_line1} ${site.contact.address_line2} ${site.contact.address_line3}`);
   setText("footer-contact-phone",   `${site.contact.phone_1} / ${site.contact.phone_2}`);
   setText("footer-contact-email",   site.contact.email);
+
+  if (site && site.hrd_corp) {
+    setText("footer-hrdcorp-text", site.hrd_corp.footer_text);
+    const footerHrdImg = document.getElementById("footer-hrdcorp-img");
+    if (footerHrdImg && site.hrd_corp.logo) footerHrdImg.src = site.hrd_corp.logo;
+  }
 
   const footerWaLink = document.getElementById("footer-contact-whatsapp");
   if (footerWaLink && site.contact.whatsapp_number) {
