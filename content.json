@@ -387,12 +387,22 @@
     "bottom_note": "Kami sedang berkembang! Jurulatih berpengalaman dialu-alukan untuk memohon."
   },
   "clients": {
-    "_comment": "SEKSYEN KLIEN / CLIENTS SECTION",
-    "section_badge": "Rangkaian Klien AATC",
-    "section_title": "Rangkaian Kami Yang Semakin Berkembang",
-    "section_description": "Kami berbangga menjadi rakan strategik kepada organisasi terkemuka dalam memacu kecemerlangan modal insan.",
-    "trust_badge": "Diberi Penarafan 5.0 di Google",
-    "cta_text": "Ingin menjadi salah satu daripada kisah kejayaan kami? Mari bincang.",
+    "_comment": "SEKSYEN KLIEN & KOLABORASI / CLIENTS & PARTNERSHIP SECTION",
+    "section_badge": "Rangkaian Kolaborasi",
+    "section_title": "Rakan Strategik & Sektor Sasaran",
+    "section_description": "Kami berbangga menjadi rakan strategik kepada organisasi dalam memacu kecemerlangan modal insan merentas pelbagai sektor utama.",
+    "partnership_banner": {
+      "badge": "Peluang Kerjasama Korporat",
+      "title": "Membina Kerjasama Strategik Baharu Bersama AATC",
+      "description": "Kami mengalu-alukan kementerian, syarikat korporat, agensi kerajaan, persatuan dan institusi pendidikan untuk bersama-sama mereka bentuk program latihan khas dan pemerkasaan modal insan organisasi anda.",
+      "benefits": [
+        "Modul Latihan Tersuai",
+        "Bantuan Tuntutan HRD Corp",
+        "Tenaga Pengajar Bertauliah"
+      ],
+      "btn_text": "Bincang Kerjasama Dengan Kami",
+      "btn_href": "#hubungi"
+    },
     "sectors": [
       {
         "icon": "account_balance",
@@ -408,31 +418,6 @@
         "icon": "school",
         "title": "Institusi Pendidikan & IPTS",
         "description": "Bekerjasama dengan universiti dan pusat TVET dalam melahirkan graduan holistik."
-      }
-    ],
-    "logos": [
-      {
-        "_comment": "LOGO KLIEN — Gantikan laluan dengan logo sebenar. Contoh: images/client1.png"
-      },
-      {
-        "name": "Klien 1",
-        "logo": "images/client1.png"
-      },
-      {
-        "name": "Klien 2",
-        "logo": "images/client2.png"
-      },
-      {
-        "name": "Klien 3",
-        "logo": "images/client3.png"
-      },
-      {
-        "name": "Klien 4",
-        "logo": "images/client4.png"
-      },
-      {
-        "name": "Klien 5",
-        "logo": "images/client5.png"
       }
     ]
   },

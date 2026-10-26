@@ -292,18 +292,39 @@ function populateClients(c) {
 
   const banner = document.getElementById("clients-logos-banner");
   if (banner) {
-    const logos = c.logos.filter(l => l.name && l.logo);
-    const logoHTML = logos.length
-      ? logos.map(l => `<img src="${l.logo}" alt="${l.name}" loading="lazy" style="height:48px;object-fit:contain;opacity:0.5;filter:grayscale(100%);" onerror="this.outerHTML='<span style=\\'font-size:1rem;font-weight:700;color:var(--text-muted);opacity:0.5;\\'>${l.name}</span>'">`).join("")
-      : `<span style="color:var(--text-muted);opacity:0.5;font-size:0.875rem;">Logo klien akan dipaparkan di sini.</span>`;
-    banner.innerHTML = `
-      <div style="display:inline-flex;align-items:center;gap:6px;background-color:#FFFFFF;padding:8px 16px;border-radius:9999px;border:1px solid #e2e8f0;margin-bottom:2rem;box-shadow:0 4px 6px rgba(0,0,0,0.05);">
-        <span class="material-symbols-outlined" style="color:#F5A623;font-size:20px;font-variation-settings:'FILL' 1;">star</span>
-        <span style="font-size:0.875rem;font-weight:700;color:var(--primary);">${c.trust_badge}</span>
-      </div>
-      <div style="display:flex;flex-wrap:wrap;justify-content:center;gap:2rem;align-items:center;margin-bottom:2rem;">${logoHTML}</div>
-      ${c.cta_text ? `<div style="margin-top:2rem;padding-top:2rem;border-top:1px solid #e2e8f0;"><a href="#hubungi" style="font-size:1.125rem;font-weight:700;color:var(--primary);text-decoration:none;display:inline-flex;align-items:center;gap:8px;transition:color 0.2s;" onmouseover="this.style.color='#F5A623'" onmouseout="this.style.color='var(--primary)'">${c.cta_text} <span class="material-symbols-outlined">arrow_forward</span></a></div>` : ''}
-    `;
+    if (c.partnership_banner) {
+      const pb = c.partnership_banner;
+      const benefitsHTML = pb.benefits && pb.benefits.length
+        ? `<div style="display:flex;flex-wrap:wrap;justify-content:center;gap:1rem;margin-bottom:2rem;">` +
+          pb.benefits.map(b => `<div style="display:flex;align-items:center;gap:8px;font-size:0.9rem;font-weight:600;color:var(--primary);background-color:#FFFFFF;padding:8px 18px;border-radius:9999px;border:1px solid #e2e8f0;box-shadow:0 2px 4px rgba(0,0,0,0.03);"><span class="material-symbols-outlined" style="color:#F5A623;font-size:18px;">check_circle</span>${b}</div>`).join("") +
+          `</div>`
+        : "";
+      banner.innerHTML = `
+        <div style="display:inline-flex;align-items:center;gap:8px;background-color:#FFFFFF;padding:8px 18px;border-radius:9999px;border:1px solid #e2e8f0;margin-bottom:1.5rem;box-shadow:0 2px 6px rgba(0,0,0,0.04);">
+          <span class="material-symbols-outlined" style="color:#F5A623;font-size:20px;">handshake</span>
+          <span style="font-size:0.875rem;font-weight:700;color:var(--primary);">${pb.badge}</span>
+        </div>
+        <h3 class="font-display" style="font-size:clamp(1.5rem,3vw,2.125rem);font-weight:800;color:var(--primary);margin-bottom:1rem;line-height:1.2;">${pb.title}</h3>
+        <p style="color:var(--text-muted);font-size:1rem;max-width:680px;margin:0 auto 1.75rem;line-height:1.7;">${pb.description}</p>
+        ${benefitsHTML}
+        <a href="${pb.btn_href || '#hubungi'}" class="btn" style="background-color:#F5A623;color:#0B2447;font-weight:700;padding:14px 32px;font-size:1rem;border-radius:8px;display:inline-flex;align-items:center;gap:8px;box-shadow:0 4px 14px rgba(245,166,35,0.25);text-decoration:none;transition:transform 0.2s,box-shadow 0.2s;" onmouseover="this.style.transform='translateY(-2px)'" onmouseout="this.style.transform='translateY(0)'">
+          ${pb.btn_text} <span class="material-symbols-outlined" style="font-size:20px;">arrow_forward</span>
+        </a>
+      `;
+    } else {
+      const logos = (c.logos || []).filter(l => l && l.name && l.logo);
+      const logoHTML = logos.length
+        ? logos.map(l => `<img src="${l.logo}" alt="${l.name}" loading="lazy" style="height:48px;object-fit:contain;opacity:0.5;filter:grayscale(100%);" onerror="this.outerHTML='<span style=\\'font-size:1rem;font-weight:700;color:var(--text-muted);opacity:0.5;\\'>${l.name}</span>'">`).join("")
+        : `<span style="color:var(--text-muted);opacity:0.5;font-size:0.875rem;">Logo klien akan dipaparkan di sini.</span>`;
+      banner.innerHTML = `
+        <div style="display:inline-flex;align-items:center;gap:6px;background-color:#FFFFFF;padding:8px 16px;border-radius:9999px;border:1px solid #e2e8f0;margin-bottom:2rem;box-shadow:0 4px 6px rgba(0,0,0,0.05);">
+          <span class="material-symbols-outlined" style="color:#F5A623;font-size:20px;font-variation-settings:'FILL' 1;">star</span>
+          <span style="font-size:0.875rem;font-weight:700;color:var(--primary);">${c.trust_badge}</span>
+        </div>
+        <div style="display:flex;flex-wrap:wrap;justify-content:center;gap:2rem;align-items:center;margin-bottom:2rem;">${logoHTML}</div>
+        ${c.cta_text ? `<div style="margin-top:2rem;padding-top:2rem;border-top:1px solid #e2e8f0;"><a href="#hubungi" style="font-size:1.125rem;font-weight:700;color:var(--primary);text-decoration:none;display:inline-flex;align-items:center;gap:8px;transition:color 0.2s;" onmouseover="this.style.color='#F5A623'" onmouseout="this.style.color='var(--primary)'">${c.cta_text} <span class="material-symbols-outlined">arrow_forward</span></a></div>` : ''}
+      `;
+    }
   }
 }
 

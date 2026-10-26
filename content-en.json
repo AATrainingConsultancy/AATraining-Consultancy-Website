@@ -268,26 +268,26 @@
   },
 
   "clients": {
-    "_comment": "CLIENTS SECTION",
-    "section_badge": "AATC Client Network",
-    "section_title": "Our Growing Network",
-    "section_description": "We are proud to be a strategic partner to leading organizations in driving human capital excellence.",
-    "trust_badge": "Rated 5.0 on Google",
-    "cta_text": "Want to be among our success stories? Let's talk.",
-
+    "_comment": "CLIENTS & PARTNERSHIP SECTION",
+    "section_badge": "Collaboration Network",
+    "section_title": "Strategic Partners & Target Sectors",
+    "section_description": "We are proud to serve as a strategic partner to organizations in driving human capital excellence across key sectors.",
+    "partnership_banner": {
+      "badge": "Corporate Partnership Opportunity",
+      "title": "Building New Strategic Collaborations with AATC",
+      "description": "We warmly welcome ministries, corporate companies, government agencies, associations, and educational institutions to co-create tailored training programs and empower your workforce.",
+      "benefits": [
+        "Tailored Training Modules",
+        "HRD Corp Claimable Support",
+        "Certified Expert Trainers"
+      ],
+      "btn_text": "Discuss Partnership With Us",
+      "btn_href": "#hubungi"
+    },
     "sectors": [
       { "icon": "account_balance", "title": "Ministries & Statutory Bodies", "description": "Empowering the integrity and operational efficiency of civil servants and government agencies." },
       { "icon": "domain",          "title": "Corporate Companies & NGOs",    "description": "Providing leadership and digitalization training for sustainable corporate growth." },
       { "icon": "school",          "title": "Educational Institutions & IPTS",  "description": "Collaborating with universities and TVET centers in producing holistic graduates." }
-    ],
-
-    "logos": [
-      { "_comment": "CLIENT LOGOS — Replace path with actual logo. Example: images/client1.png" },
-      { "name": "Client 1", "logo": "images/client1.png" },
-      { "name": "Client 2", "logo": "images/client2.png" },
-      { "name": "Client 3", "logo": "images/client3.png" },
-      { "name": "Client 4", "logo": "images/client4.png" },
-      { "name": "Client 5", "logo": "images/client5.png" }
     ]
   },
 
