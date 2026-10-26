@@ -437,6 +437,7 @@ function populateFooter(f, site) {
     `<a href="${l.href}" style="color:#cbd5e1;text-decoration:none;font-size:0.875rem;transition:color 0.2s;" onmouseover="this.style.color='#F5A623'" onmouseout="this.style.color='#cbd5e1'">${l.label}</a>`).join("");
 
   setAttr("social-facebook",  "href", site.social_media.facebook);
+  if (site.social_media.instagram) setAttr("social-instagram", "href", site.social_media.instagram);
   setAttr("social-linkedin",  "href", site.social_media.linkedin);
   setAttr("social-whatsapp",  "href", site.social_media.whatsapp);
   setAttr("social-youtube",   "href", site.social_media.youtube);

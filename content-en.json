@@ -9,7 +9,7 @@
     "registration": "REG: 202603151092 (003858558-D)",
     "logo_path": "images/logo.png",
     "_logo_comment": "EDIT: Change logo — place your logo file in images/ folder with the name logo.png",
-    "page_title": "AATC — Training & Consultancy in Ipoh",
+    "page_title": "AATC Training & Consultancy in Ipoh",
     "meta_description": "Leading high-impact corporate training, AI development, estate & will consultancy, and facility rental in Ipoh, Perak.",
 
     "contact": {
@@ -28,6 +28,7 @@
     "social_media": {
       "_comment": "SOCIAL MEDIA LINKS — Put full URLs here, e.g. https://facebook.com/aatc",
       "facebook": "#",
+      "instagram": "#",
       "linkedin": "#",
       "whatsapp": "#",
       "youtube": "#"
@@ -60,7 +61,7 @@
 
     "stats": [
       { "value": "15+", "label": "Years Combined Experience" },
-      { "value": "4",   "label": "Experienced Trainers — And Growing" },
+      { "value": "6",   "label": "Experienced Trainers — And Growing" },
       { "value": "3",   "label": "Seminar Spaces" },
       { "value": "⭐ 5.0", "label": "Google Rating" }
     ],
@@ -235,15 +236,15 @@
       {
         "name": "Sir. Mohammad Zulkamal",
         "title": "Trainer & Consultant",
-        "photo": "image for website/Trainer4.jpg.png",
-        "photo_hover": "image for website/Trainer4.1.jpg.png",
+        "photo": "images/trainer4.png",
+        "photo_hover": "images/trainer4-alt.png",
         "image_position": "top center",
         "hover_image_position": "top center",
         "credentials": ["Business Studies", "Banking", "Sports & Fitness"],
         "bio": "Professionally experienced in the banking sector with a background in Business Studies and 4 years of industry experience. Demonstrates strong professional knowledge in banking operations, with additional skills and active involvement in sports and fitness."
       },
       {
-        "name": "Sir. Muhammad Aiman Aliff",
+        "name": "Sir. Muhammad Aiman Alif",
         "title": "TVET Automotive & Leadership Trainer",
         "photo": "images/trainer5.jpg",
         "photo_hover": "images/trainer5-alt.jpg",

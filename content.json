@@ -8,7 +8,7 @@
     "registration": "REG: 202603151092 (003858558-D)",
     "logo_path": "images/logo.png",
     "_logo_comment": "EDIT: Tukar logo — letakkan fail logo anda dalam folder images/ dengan nama logo.png",
-    "page_title": "AATC — Latihan & di Ipoh",
+    "page_title": "AATC Training & Consultancy in Ipoh",
     "meta_description": "Peneraju latihan korporat berimpak tinggi, pembangunan AI, khidmat pusaka & wasiat, dan sewaan fasiliti di Ipoh, Perak.",
     "contact": {
       "_comment": "MAKLUMAT HUBUNGAN / CONTACT DETAILS — Ubah nombor telefon, emel dan alamat di sini",
@@ -25,6 +25,7 @@
     "social_media": {
       "_comment": "PAUTAN MEDIA SOSIAL / SOCIAL MEDIA LINKS — Letak URL penuh di sini, contoh: https://facebook.com/aatc",
       "facebook": "#",
+      "instagram": "#",
       "linkedin": "#",
       "whatsapp": "#",
       "youtube": "#"
@@ -76,7 +77,7 @@
         "label": "Tahun Pengalaman Bersama"
       },
       {
-        "value": "4",
+        "value": "6",
         "label": "Jurulatih Berpengalaman — Dan Semakin Berkembang"
       },
       {
@@ -343,8 +344,8 @@
       {
         "name": "Sir. Mohammad Zulkamal",
         "title": "Jurulatih & Perunding",
-        "photo": "image for website/Trainer4.jpg.png",
-        "photo_hover": "image for website/Trainer4.1.jpg.png",
+        "photo": "images/trainer4.png",
+        "photo_hover": "images/trainer4-alt.png",
         "image_position": "top center",
         "hover_image_position": "top center",
         "credentials": [
@@ -355,7 +356,7 @@
         "bio": "Berpengalaman profesional dalam sektor perbankan dengan latar belakang dalam Pengajian Perniagaan dan 4 tahun pengalaman industri. Menunjukkan pengetahuan profesional yang kukuh dalam operasi perbankan, dengan kemahiran tambahan serta penglibatan aktif dalam sukan dan kecergasan."
       },
       {
-        "name": "Sir. Muhammad Aiman Aliff",
+        "name": "Sir. Muhammad Aiman Alif",
         "title": "Jurulatih TVET Automotif & Kepimpinan",
         "photo": "images/trainer5.jpg",
         "photo_hover": "images/trainer5-alt.jpg",
